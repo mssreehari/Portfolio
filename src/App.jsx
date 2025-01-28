@@ -52,7 +52,56 @@ const projects = [
   },
 ];
 
-
+const skills = [
+  {
+    id: 1,
+    title: "ReactJs",
+  },
+  {
+    id: 2,
+    title: "NodeJs",
+  },
+  {
+    id: 3,
+    title: "ExpressJs",
+  },
+  {
+    id: 4,
+    title: "MongoDB",
+  },
+  {
+    id: 5,
+    title: "MySQL",
+  },
+  {
+    id: 6,
+    title: "Flutter",
+  },
+  {
+    id: 7,
+    title: "HTML",
+  },
+  {
+    id: 8,
+    title: "CSS",
+  },
+  {
+    id: 9,
+    title: "JavaScript",
+  },
+  {
+    id: 10,
+    title: "Python",
+  },
+  {
+    id: 11,
+    title: "C",
+  },
+  {
+    id: 12,
+    title: "Figma",
+  },
+]
 
 const App = () => {
   return (
@@ -254,7 +303,33 @@ const App = () => {
         </motion.div>
       </section>
 
-    
+      <section id="skills" className="p-5 bg-dark">
+        <motion.div
+          initial={{opacity:0 ,y:50}}
+          whileInView={{opacity:1 ,y:0}}
+          viewport={{once:true}}
+          transition={{duration:1}}
+          className="container"
+        >
+          <h2 className="text-center text-warning mb-5">Skills</h2>
+          <div className="row row-cols-2 row-cols-4 g-4">
+            {skills.map((skill) => (
+              <motion.div 
+                key={skill.id} 
+                className="col"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.2 }}
+              >
+                <div className="card bg-dark text-light border-warning text-center">
+                  <div className="card-body">
+                    <h5 className="card-title m-0">{skill.title}</h5>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      </section>
 
       <section id="projects" className="p-5 bg-dark">
         <motion.div
@@ -313,9 +388,22 @@ const App = () => {
         </motion.div>
       </section>
 
-      <footer className="p-3 text-center bg-dark">
-        <p className="text-muted">&copy; 2025 My Portfolio. All rights reserved.</p>
-      </footer>
+      <section id="contact" className="p-5 bg-dark">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="container"
+        >
+          <h2 className="text-center text-warning mb-5">Contact Me</h2>
+          <form>
+            <div className="form-group">
+              <input type="text" className="form-control" placeholder="Name" />
+            </div>
+          </form>
+        </motion.div>
+      </section>
     </div>
   );
 };
