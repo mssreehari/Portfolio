@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import profilePhoto from "./assets/IMG_3664~2.jpg";
+import profilePhoto from "./assets/IMG_3664.jpg";
 import { FaGithub, FaInstagram, FaLinkedin, FaFileAlt, FaSun, FaMoon } from 'react-icons/fa';
-import resume from "./assets/M-S-SREEHARI (5).pdf";
+import resume from "./assets/SREEHARI.pdf";
 
 
 
