@@ -228,7 +228,7 @@ const App = () => {
           style={{
             color: isDarkMode ? "#ffffff" : "#000000"
           }}>
-            Hi, I'm M S Sreehari, a dedicated third-year B.Tech student in Computer Science and Engineering. I'm an aspiring full-stack web developer, currently building my skills in the MERN stack. My strongest area is React, where I enjoy crafting dynamic and interactive user interfaces.
+            Hi, I'm M S Sreehari, a dedicated third-year B.Tech student in Computer Science and Engineering. I'm an aspiring Mobile App developer, currently building my skills in the Flutter. My strongest area is React, where I enjoy crafting dynamic and interactive user interfaces.
           </p>
           
           <div className="d-flex flex-column align-items-center align-items-lg-start gap-4">
