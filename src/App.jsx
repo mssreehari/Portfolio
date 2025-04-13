@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     title: "Library Management System",
     description: "The Library Management System is a comprehensive web application designed to streamline the management of a library's resources and activities. It provides a user-friendly interface for librarians to efficiently manage books, users, and transactions, while offering features for patrons to add, borrow, and return books.",
-    technologies: ["React", "Node.js", "Express", "MySQL"],
+    technologies: ["HTML","CSS", "Node.js", "Express", "MySQL"],
     githubLink: "https://github.com/mssreehari/DBMS-project-library-management",
     liveDemo: "https://github.com/mssreehari/DBMS-project-library-management" 
   },
