@@ -267,3 +267,74 @@
       display: initial;
     }
   }
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background: var(--modal-bg);
+  color: var(--modal-text);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.modal-content img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .modal-content img {
+    max-width: 90%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
