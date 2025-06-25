@@ -49,7 +49,7 @@ const Home = ({ isDarkMode }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="text-center text-lg-start px-3 px-lg-5"
-        style={{ maxWidth: "800px" , marginLeft: "40px"}}
+        style={{ maxWidth: "800px" }}
       >
         <h1 className="display-4 fw-bold text-warning mb-4" >
           Hey!! I'm, Sreehari
@@ -58,8 +58,7 @@ const Home = ({ isDarkMode }) => {
           className="fs-5 mb-4"
           style={{ color: isDarkMode ? "#fff" : "#000" }}
         >
-          Hi, I'm M S Sreehari, a dedicated third-year B.Tech student in
-          Computer Science and Engineering...
+         I’m a  Web Developer,Data Science Engineer and UI/UX designer who builds  responsive, user-friendly websites and web applications and models.
         </p>
 
         <div className="d-flex flex-column align-items-center align-items-lg-start gap-4">

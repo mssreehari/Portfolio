@@ -7,19 +7,19 @@ const AboutSection = ({ isDarkMode }) => {
       year: '2022 - 2025',
       title: 'B.Tech in Computer Science',
       institution: 'Toc H Institute of Science and Technology',
-      description: 'Specialized in web development, AI, and modern software engineering practices.',
+      description: 'CGPA: 7.6'
     },
     {
       year: '2020 - 2022',
       title: 'Higher Secondary Education',
-      institution: 'Kerala State Board',
-      description: 'Focused on Computer Science with core subjects including Math, Physics, and Chemistry.',
+      institution: 'St Sebastian’s Higher Secondary School',
+      description: 'Percentage: 96%',
     },
     {
       year: '2010 - 2020',
       title: 'School Education',
-      institution: 'CBSE Curriculum',
-      description: 'Strong academic base in sciences, logical reasoning, and computer basics.',
+      institution: 'Saraswathi Vidyalaya',
+      description: 'Percentage:89%',
     },
   ];
 
