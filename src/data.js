@@ -6,7 +6,7 @@ const projects = [
     technologies: ["Flutter"],
     githubLink: "https://github.com/mssreehari/Canfinity",
     liveDemo: "https://github.com/mssreehari/Canfinity",
-    screenshots: ["/assets/hagana1.png", "/assets/hagana2.png","/assets/hagana3.png","/assets/hagana4.png","/assets/hagana5.png","/assets/hagana6.png","/assets/hagana7.png"]
+    screenshots: ["/assets/Canfinity1.jpg", "/assets/Canfinity2.jpg","/assets/Canfinity3.jpg","/assets/Canfinity4.jpg","/assets/Canfinity5.jpg","/assets/Canfinity6.jpg"]
     
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     technologies: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
     githubLink: "https://github.com/mssreehari/memories-sharing-app.git",
     liveDemo: "https://github.com/mssreehari/memories-sharing-app.git",
-    screenshots: ["/assets/hagana1.png", "/assets/hagana2.png","/assets/hagana3.png","/assets/hagana4.png","/assets/hagana5.png","/assets/hagana6.png","/assets/hagana7.png"]
+    screenshots: ["/assets/Memory1.png", "/assets/Memory2.png","/assets/Memory3.png"]
     
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     technologies: ["Flutter"],
     githubLink: "https://github.com/mssreehari/Hagana-HACK-A-ADDICT",
     liveDemo: "https://github.com/mssreehari/Hagana-HACK-A-ADDICT",
-    screenshots: ["/assets/hagana1.png", "/assets/hagana2.png","/assets/hagana3.png","/assets/hagana4.png","/assets/hagana5.png","/assets/hagana6.png","/assets/hagana7.png"]
+    screenshots: ["/assets/hagana1.jpg", "/assets/hagana2.jpg","/assets/hagana3.jpg","/assets/hagana4.jpg","/assets/hagana5.jpg","/assets/hagana6.jpg","/assets/hagana7.jpg"]
     
   },
   {

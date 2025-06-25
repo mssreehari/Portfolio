@@ -11,7 +11,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ScreenshotModal from './components/ScreenshotModal';
-
+import About from './components/About';
 import { projects, skills } from './data';
 
 const App = () => {
@@ -43,6 +43,7 @@ const App = () => {
     <div className={`${isDarkMode ? 'bg-dark' : 'bg-light'} min-vh-100`} style={{ backgroundColor: isDarkMode ? '#1F2833' : '#ffffff' }}>
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Home isDarkMode={isDarkMode} />
+      <About isDarkMode={isDarkMode} />
       <Skills isDarkMode={isDarkMode} skills={skills} />
       <Projects isDarkMode={isDarkMode} projects={projects} openModal={openModal} />
       <Contact isDarkMode={isDarkMode} />
