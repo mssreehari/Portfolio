@@ -1,0 +1,119 @@
+.aboutSection {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.dark {
+  background-color:dark;
+  color: white;
+}
+
+.light {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(255, 255, 255);
+}
+
+.description {
+  max-width: 1000px;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.educationCard {
+  width: 100%;
+  max-width: 1200px;
+  border: 2px solid;
+  padding: 3rem;
+  border-radius: 200px;
+  border: 0
+}
+
+.darkCard {
+  background-color: dark;
+  border-color: transparent;
+  
+}
+
+.lightCard {
+  background-color: light;
+  border-color: transparent;
+  
+}
+
+.educationHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.educationTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color: #facc15;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.educationList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.educationItem {
+  max-width: 700px;
+  width: 100%;
+  text-align: left;
+  color: inherit;
+}
+
+.bulletRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #facc15;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.itemTitle {
+  font-weight: bold;
+  color: #facc15;
+  margin: 0;
+}
+
+.itemSubtitle {
+  font-style: italic;
+  color: #facc15;
+  margin-bottom: 0.5rem;
+}

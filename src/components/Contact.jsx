@@ -47,7 +47,10 @@ const Contact = ({ isDarkMode }) => {
             <motion.div variants={itemVariants}>
               <ContactItem
                 icon={<EmailIcon />}
-                title="Email Address"
+             title = { <h5 className="contact-title"
+  style={{ color: isDarkMode ? '#FFD700' : '#333', fontSize: '18px',fontWeight: 'bold' }} >
+  Email Address
+</h5> }
                 primary="sreeharimanezhath@gmail.com"
                 secondary="Professional inquiries welcome"
                 href="mailto:sreeharimanezhath@gmail.com"
@@ -60,8 +63,12 @@ const Contact = ({ isDarkMode }) => {
             <motion.div variants={itemVariants}>
               <ContactItem
                 icon={<PhoneIcon />}
-                title="Phone Number"
+                title = { <h5 className="contact-title"
+  style={{ color: isDarkMode ? '#FFD700' : '#333', fontSize: '18px',fontWeight: 'bold' }} >
+  Phone Number
+</h5> }
                 primary="+91 9809238393"
+                secondary="text for a quick response"
                 href="tel:+919809238393"
                 isDarkMode={isDarkMode}
               />
@@ -72,7 +79,10 @@ const Contact = ({ isDarkMode }) => {
             <motion.div variants={itemVariants}>
               <ContactItem
                 icon={<LocationIcon />}
-                title="Location"
+                title = { <h5 className="contact-title"
+  style={{ color: isDarkMode ? '#FFD700' : '#333', fontSize: '18px',fontWeight: 'bold' }} >
+  Location
+</h5> }
                 primary="Edakochi, Kerala"
                 secondary="India, 682010"
                 href="https://maps.app.goo.gl/MitQFMgJrkVcpkTP9"
@@ -86,7 +96,10 @@ const Contact = ({ isDarkMode }) => {
             <motion.div variants={itemVariants}>
               <ContactItem
                 icon={<LinkedInIcon />}
-                title="LinkedIn Profile"
+               title = { <h5 className="contact-title"
+  style={{ color: isDarkMode ? '#FFD700' : '#333', fontSize: '18px',fontWeight: 'bold' }} >
+  Linkedin profile
+</h5> }
                 primary="M S Sreehari"
                 secondary="Professional networking"
                 href="https://linkedin.com/in/m-s-sreehari-131a0b254"
@@ -98,46 +111,7 @@ const Contact = ({ isDarkMode }) => {
         </div>
 
         {/* Professional CTA Section */}
-        <motion.div variants={itemVariants} className="row justify-content-center">
-          <div className="col-lg-8">
-            <div className={`p-5 rounded-3 border ${
-              isDarkMode 
-                ? 'bg-dark border-secondary text-light' 
-                : 'bg-white border-light text-dark'
-            }`} style={{ boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
-              <div className="text-center">
-                <h4 className={`fw-bold mb-3 ${isDarkMode ? 'text-white' : 'text-dark'}`}>
-                  Ready to Start a Project?
-                </h4>
-                <p className={`mb-4 ${isDarkMode ? 'text-light' : 'text-muted'}`}>
-                  I'm available for freelance projects, full-time opportunities, and consultations.
-                </p>
-                <div className="d-flex gap-3 justify-content-center flex-wrap">
-                  <motion.a
-                    href="mailto:sreeharimanezhath@gmail.com"
-                    className="btn btn-warning px-4 py-2 fw-semibold text-dark"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    style={{ minWidth: '140px' }}
-                  >
-                    Send Email
-                  </motion.a>
-                  <motion.a
-                    href="tel:+919876543210"
-                    className={`btn btn-outline-warning px-4 py-2 fw-semibold ${
-                      isDarkMode ? 'text-warning' : 'text-warning'
-                    }`}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    style={{ minWidth: '140px' }}
-                  >
-                    Call Now
-                  </motion.a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
+      
       </motion.div>
     </section>
   );

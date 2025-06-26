@@ -1,11 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
+import styles from './Project.module.css';
 
 const Projects = ({ isDarkMode, projects, openModal }) => (
   <section id="projects" className={`p-3 p-md-5 ${isDarkMode ? 'bg-dark' : 'bg-light'}`}>
     <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 1 }} className="container">
-      <h2 className="text-center text-warning mb-4 mb-md-5">Featured Projects</h2>
+      <h2 className="text-center text-white mb-4 mb-md-5">Featured Projects</h2>
+      <div className={styles.underline}></div>
       <div className="row g-4">
         {projects.map((project, index) => (
           <motion.div key={project.id} className="col-12 col-lg-8 mx-auto"
