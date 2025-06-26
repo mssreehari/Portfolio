@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import styles from './Skills.module.css';
+import styles from './skills.module.css';
 
 const Skills = ({ isDarkMode, skills }) => {
   const [activeCategory, setActiveCategory] = useState('all');
